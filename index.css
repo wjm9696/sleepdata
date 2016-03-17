@@ -1,0 +1,229 @@
+.signupdiv{
+	display: none;
+}
+
+#myChart.style{
+	width: 900px;
+}
+
+body,html{
+	margin:0;
+	padding:0;
+    height:100%;
+    background-color: #4CAF50;
+
+}
+
+.main-body{
+	text-align: left;
+    width:500px;
+    margin: auto;
+
+    
+
+
+}
+
+input{
+    background-color: #FFFF99;
+
+}
+
+input[type=time],[type=date]{
+    padding: 6px 10px;
+    font-family: 'Poiret One', cursive;
+    font-size:15px;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    display: inline-block;
+
+}
+
+input[type=text] {
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:15px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FFFF99 inset;
+    font-family: 'Poiret One', cursive;
+    font-size:15px;
+}
+
+.buttom{
+    font-family: 'Poiret One', cursive;
+    font-size:15px;
+    color: green !important;
+    background-color: white !important;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    border:1px solid green;
+
+}
+
+.form{
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    color: white;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.return_info{
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    color: white;
+}
+
+.min_max{
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    padding: 10px;
+    color: white;
+
+}
+
+.rank{
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    padding: 10px;
+    color: white;
+
+}
+
+#myChart{
+    width: 90% !important;
+    overflow:hidden;
+}
+
+.check{
+    border-radius: 4px;
+    border:solid 1px white;
+    display: none;
+    display: inline-block;
+    margin-left:15px; 
+    margin-top:15px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width:600px){
+    .main-body{
+    text-align: left;
+    width: 100%;
+    }
+    
+    input{
+        margin-right: 3vw;
+        width: 40%;
+        font-family: 'Poiret One', cursive;
+        font-size:4vw;
+
+
+    }
+    
+    input[type=time],[type=date]{
+        display: inline-block;
+        padding: 2vw 5vw;
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        border-radius: 3vw;
+        border: 0px;
+        min-height: 1.2em;
+
+
+    }
+
+    input[type=text] {
+
+        margin-right: 5vw;
+        padding: 3vw 10vw;
+        box-sizing: border-box;
+        border: 0px;
+        font-size:4vw;
+        border-radius: 3vw;
+        text-align: center;
+
+
+    }
+
+    .form{
+        font-family: 'Poiret One', cursive;
+        font-size:20px;
+        color: white;
+        overflow: hidden;
+        margin: 2vw;
+
+
+    }
+
+    .submit_signup{
+        text-align: center;
+    }
+    .buttom{
+        font-family: 'Poiret One', cursive;
+        font-size:5vw;
+        background-color: white;
+        border: none;
+        color: white;
+        padding: 13px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        margin-top: 5vw;
+        cursor: pointer;
+        border-radius: 3vw;
+        border:1px solid green;
+
+
+    
+    }
+
+    .form_text{
+        margin:1vw;
+        padding:0px;
+        font-family: 'Poiret One', cursive;
+        font-size:6vw;
+        width: 40%;
+        margin-left: 4vw;
+        display: inline-block;
+
+
+    }
+
+
+    .return_info{
+    font-family: 'Poiret One', cursive;
+    font-size:4vw;
+
+    }
+
+    .min_max .rank{
+    font-family: 'Poiret One', cursive;
+    font-size:7vw;
+    padding: 10px !important;
+
+    }
+
+    .min_max{
+        margin-bottom: 10vw;
+    }
+
+    .two_buttom_signup{
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
